@@ -1,0 +1,5 @@
+This project present ALB
+Two steps, create instances first because later on register target will need instances.
+
+terraform apply -target=aws_instance.mylb
+terraform apply ##this's because register target need to have instances first
